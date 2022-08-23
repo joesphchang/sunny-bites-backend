@@ -1,0 +1,11 @@
+[
+    {
+        "title": "The Cheesiest CheeseBurgers",
+        "creator": "Chef Ramsey",
+        "ingredients": ["Buns", "Hamburger Patty", "Ketchup", "Mustard", "Pickles", "Tomatoes", "Peppar Jack Cheese", "Bacon"],
+        "image": "https://i.imgur.com/YXpNCG6.jpeg",
+        "description": "",
+        "prep": 30,
+        "duration": 30
+    }
+]

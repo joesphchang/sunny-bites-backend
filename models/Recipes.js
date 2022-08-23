@@ -5,19 +5,23 @@ const mongoose = require('../db/connection');
 const RecipesSchema = new mongoose.Schema(
     {
 	title: { type: String, required: true, unique: true },
+	creator: String,
 	ingredients: { type: Array },
-	cuisine: { type: String, required: true },
-	dishType: {
-		type: String,
-	},
 	image: {
 		type: String,
 		default: 'https://images.media-allrecipes.com/images/75131.jpg',
 	},
+	description: String, 
     prep: { type: Number, min: 0},
 	duration: { type: Number, min: 0 },
-	creator: { type: String },
 	created: { type: Date, default: Date.now },
+    owner: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Users',
+        },    
+    }, 
+    {
+        timestamps: true,
     }
 );
 
