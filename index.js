@@ -20,7 +20,7 @@ app.use(request_logger);
 
 // Redirect
 app.get('/', function(req, res) {
-    res.redirecty('/api/recipes');
+    res.redirect('/api/recipes');
 });
 
 // Start Controllers 
