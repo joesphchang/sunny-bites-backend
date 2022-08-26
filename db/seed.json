@@ -1,11 +1,42 @@
 [
     {
         "title": "The Cheesiest CheeseBurgers",
-        "creator": "Chef Ramsey",
+        "creator": "Andrew Kai",
         "ingredients": ["Buns", "Hamburger Patty", "Ketchup", "Mustard", "Pickles", "Tomatoes", "Peppar Jack Cheese", "Bacon"],
         "image": "https://i.imgur.com/YXpNCG6.jpeg",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Ut pharetra sit amet aliquam. Odio euismod lacinia at quis risus sed vulputate odio ut. Facilisis leo vel fringilla est. Suspendisse interdum consectetur libero id faucibus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Maecenas sed enim ut sem viverra. Vitae proin sagittis nisl rhoncus mattis.",
         "prep": 30,
-        "duration": 30
+        "duration": 30,
+        "owner": "Andrew Kai"
+    },
+    {
+        "title": "Italians are jealous about this",
+        "creator": "Ronny Chieng",
+        "ingredients": ["Spaghetti Noodles", "Pasta Sauce", "Tomatoes", "Onions", "Meatballs"],
+        "image": "https://i.imgur.com/F8Zysjo.jpeg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Ut pharetra sit amet aliquam. Odio euismod lacinia at quis risus sed vulputate odio ut. Facilisis leo vel fringilla est. Suspendisse interdum consectetur libero id faucibus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Maecenas sed enim ut sem viverra. Vitae proin sagittis nisl rhoncus mattis.",
+        "prep": 30,
+        "duration": 30,
+        "owner": "Ronny Chieng"
+    },
+    {
+        "title": "Cilantro Lime Shrimp Salad",
+        "creator": "Kevin Hart",
+        "ingredients": ["Salad Mix", "Cucumbers", "Ranch Dressing", "Cheese", "Radish", "Red Peppers", "8 OZ Shrimp"],
+        "image": "https://i.imgur.com/rKarR5z.jpeg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Ut pharetra sit amet aliquam. Odio euismod lacinia at quis risus sed vulputate odio ut. Facilisis leo vel fringilla est. Suspendisse interdum consectetur libero id faucibus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Maecenas sed enim ut sem viverra. Vitae proin sagittis nisl rhoncus mattis.",
+        "prep": 30,
+        "duration": 30,
+        "owner": "Kevin Hart"
+    },
+    {
+        "title": "Tacos",
+        "creator": "Katt Williams",
+        "ingredients": ["Flour Tortilla", "Steak", "Gaucamole", "Pico de Gallo", "Potato Fries"],
+        "image": "https://i.imgur.com/KPjFh0l.jpeg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus urna et pharetra pharetra massa massa ultricies mi quis. Dictum fusce ut placerat orci nulla pellentesque dignissim enim sit. Ut pharetra sit amet aliquam. Odio euismod lacinia at quis risus sed vulputate odio ut. Facilisis leo vel fringilla est. Suspendisse interdum consectetur libero id faucibus. Adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Maecenas sed enim ut sem viverra. Vitae proin sagittis nisl rhoncus mattis.",
+        "prep": 30,
+        "duration": 30,
+        "owner": "Katt Williams"
     }
 ]
