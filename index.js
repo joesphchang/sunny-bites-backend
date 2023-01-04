@@ -16,7 +16,7 @@ const port = process.env.PORT || 3001;
 const request_logger = require('./middleware/request_logger');
 const { handleErrors } = require('./middleware/custom_errors');
 
-app.set('port', process.env.PORT || 3000);
+// app.set('port', process.env.PORT || 3000);
 
 // Middleware
 server.use(middlewares);
@@ -52,9 +52,9 @@ app.use((err, req, res, next) => {
 app.use(handleErrors);
 
 // Start Server
-app.listen(app.get('port'), () => {
-	console.log(`🍀 Port: ${app.get('port')} 🌞`);
-});
+// app.listen(app.get('port'), () => {
+// 	console.log(`🍀 Port: ${app.get('port')} 🌞`);
+// });
 
 server.listen(port);
 
