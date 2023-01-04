@@ -10,6 +10,19 @@ const router = express.Router();
 const { createUserToken } = require('../middleware/auth');
 const res = require('express/lib/response');
 
+router.get('/', async function (req, res, next) {
+	try {
+		const users = await Users.find({});
+		if (users) {
+			res.status(200).json(users);
+		} else {
+			return res.sendStatus(404);
+		}
+	} catch (error) {
+		next(error);
+	}
+});
+
 //Using promise chain
 router.post('/signup', (req, res, next) => {
 	bcrypt
